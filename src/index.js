@@ -7,7 +7,8 @@ const
 	editfield = document.querySelector("#editfield"),
 	cdform = document.querySelector("#cdform"),
 	cdfield = document.querySelector("#cdfield"),
-	upbtn = document.querySelector("#up");
+	upbtn = document.querySelector("#up"),
+	formatbtn = document.querySelector("#format");
 
 let handle, interactor;
 
@@ -21,22 +22,37 @@ requestbtn.addEventListener("click", async function () {
 	uicd();
 });
 
-savebtn.addEventListener("click", () => interactor.up(true));
+savebtn.addEventListener("click", async function () {
+	// save any changes first 
+	interactor.ctx = JSON.parse(editfield.value);
+
+	const current = interactor.layer;
+	interactor.up(true);
+	await handle.write(interactor.ctx);
+	interactor.layer = current;
+	uicd();
+});
 
 cdform.addEventListener("submit", function (e) {
+	e.preventDefault();
+
 	// save any changes first 
 	interactor.ctx = JSON.parse(editfield.value);
 
 	interactor.cd(...cdfield.value.split(","));
 	cdfield.value = "";
 	uicd();
-	e.preventDefault();
 });
 
-upbtn.addEventListener("click", function(){
+upbtn.addEventListener("click", function () {
 	// save any changes first 
 	interactor.ctx = JSON.parse(editfield.value);
 
 	interactor.up();
+	uicd();
+});
+
+formatbtn.addEventListener("click", function(){
+	interactor.ctx = JSON.parse(editfield.value);
 	uicd();
 });

@@ -29,7 +29,7 @@ const layer = (parent, key) => {
 
 	if (isJsonString(parent.ctx[key])) {
 		obj.ctx = JSON.parse(parent.ctx[key]);
-		const _up = obj.up;
+		const _up = obj.up.bind(obj);
 		obj.up = function (root) {
 			parent.ctx[key] = JSON.stringify(obj.ctx);
 			return _up(root);
