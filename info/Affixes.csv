@@ -1,0 +1,402 @@
+m_Key,Name
+a,{0:stat(val|0|s)} Armor
+e,{0:stat(val|0|s)} Evasion
+h,{0:stat(val|0|s)} Life
+hr,{0:stat(val|0.##|s)} Life Regeneration
+hol,{0:stat(val|0.#|s)} Heal on Level Up
+hpg,{0:stat(val|0.####|%|s)} Heals
+ls,{0:stat(cha|0.####|%|s)} Chance to Heal {0:stat(val|0.#)} Life on Hit
+ls%,{0:stat(val|0.###|%|s)} Lifesteal <color=#6a6a6a>(Of Damage Dealt)</color>
+hoh,{0:stat(cha|0.####|%|s)} Chance to Heal {0:stat(val|0.#)} Life on Hit
+hok,{0:stat(cha|0.####|%|s)} Chance to Heal {0:stat(val|0.#)} Life on Kill
+hok%,{0:stat(val|0.##|%)} of Enemy Max Life Heal on Kill
+ad%,{0:stat(per|0.#|%||s)} Attack Damage
+sd%,{0:stat(per|0.#|%||s)} Spell Damage
+d%,{0:stat(per|0.#|%||s)} Damage
+adeu%,{0:stat(per|0.#|%|s)} Attack Damage striking undamaged enemies
+sdeu%,{0:stat(per|0.#|%|s)} Spell Damage striking undamaged enemies
+deu%,{0:stat(per|0.#|%|s)} Damage striking undamaged enemies
+adebl%,{0:stat(per|0.#|%|s)} Attack Damage to enemies at {0:stat(hpm|0.#|%)} Life or more
+sdebl%,{0:stat(per|0.#|%|s)} Spell Damage to enemies at {0:stat(hpm|0.#|%)} Life or more
+debl%,{0:stat(per|0.#|%|s)} Damage to enemies at {0:stat(hpm|0.#|%)} Life or more
+adeal%,{0:stat(per|0.#|%|s)} Attack Damage to enemies at {0:stat(hpm|0.#|%)} Life or less
+sdeal%,{0:stat(per|0.#|%|s)} Spell Damage to enemies at {0:stat(hpm|0.#|%)} Life or less
+deal%,{0:stat(per|0.#|%|s)} Damage to enemies at {0:stat(hpm|0.#|%)} Life or less
+acc%,{0:stat(val|0.#|%|s)} Attack Critical Chance
+scc%,{0:stat(val|0.#|%|s)} Spell Critical Chance
+cc%,{0:stat(val|0.#|%|s)} Critical Chance
+dsum%,{0:stat(per|0.#|%|s)} Summon Damage
+as%,{0:stat(per|0.#|%|s)} Attack Speed
+ss%,{0:stat(per|0.#|%|s)} Spell Speeds
+s%,{0:stat(per|0.#|%|s)} Attack & Spell Speeds
+av%,{0:stat(per|0.#|%|s)} Attack Projectile Velocity
+sv%,{0:stat(per|0.#|%|s)} Spell Velocity
+v%,{0:stat(per|0.#|%|s)} Attack Projectile & Spell Velocity
+ang%,{0:stat(per|0.#|%|s)} Projectile Angle
+acnt,{0:stat(val|0|s)} Attack Projectiles Count
+scnt,{0:stat(val|0|s)} Spell Projectiles & Count
+cnt,{0:stat(val|0|s)} Projectiles & Count
+apnc,{0:stat(val|0|s)} Attack Projectiles Pierce or Bounce
+abnc,{0:stat(val|0|s)} Attack Projectiles Pierce
+aprc,{0:stat(val|0|s)} Attack Projectiles Bounce
+arng%,{0:stat(per|0.#|%|s)} Attack Range
+aare%,{0:stat(per|0.#|%|s)} Attack Area
+sare%,{0:stat(per|0.#|%|s)} Spell Area
+are%,{0:stat(per|0.#|%|s)} Attack & Spell Area
+u%,{0:stat(per|0.#|%|s)} Spell Duration
+psu%,{0:stat(per|0.#|%|s)} Positive Statuses Duration
+nsu%,{0:stat(per|0.#|%|s|n)} Negative Statuses Duration
+-thr%_e,{0:stat(per|0.#|%|s|n)} Enemy Stun Thresholds
+ms,{0:stat(val|0|*100|s)} Movement Speed
+ms%,{0:stat(per|0.#|%|s)} Movement Speed
+msp,{0:stat(val|0.#|%|s)} Less Attack Movement Penalty
+dcld%,{0:stat(per|0.#|%|s|n)} Dash Cooldown
+dchg,"{0:stat(val|0|s)} Dash Charges, {1:stat(per|0.#|%|s|n)} Dash Cooldown"
+drng,{0:stat(per|0|%|s)} Dash Range
+akb,{0:stat(val|0|*100|s)} Attack Knockback
+skb,{0:stat(val|0|*100|s)} Knockback
+-kbt%,{0:stat(per|0.#|%|s|n)} Knockback Taken
+lck,{0:stat(per|0.#|%|s)} Luck
+pul,{0:stat(val|0|*100|s)} Shard Pull Area
+pxp,{0:stat(val|0.#|s)} Passive Experience Gain per Second
+xp%,{0:stat(val|0.##|%|s)} More Experience Gain
+lvl,{0:stat(val|0|s)} Levels when you start your next Attempt
+rev,{0:stat(st1|0|s)} Revivals
+brer,{0:stat(st1|0|s)} Reroll Dice
+bban,{0:stat(st1|0|s)} Banish Dice
+bski,{0:stat(st1|0|s)} Alteration Dice
+msa%,{0:stat(val|0.#|%|s)} More <color=#506bd3>Adept</color> Offers
+mse%,{0:stat(val|0.#|%|s)} More <color=#a71edf>Expert</color> Offers
+msm%,{0:stat(val|0.#|%|s)} More <color=#c00049>Master</color> Offers
+msl%,{0:stat(val|0.#|%|s)} More <color=#ff4f4f>Legend</color> Offers <color=#6a6a6a>(Legend Offers can only spawn on Master Offers)</color>
+msru%,{0:stat(val|0.#|%|s)} More Skill <color=#797ea0>Rarity Upgrade</color> Offers
+mslvl%,{0:stat(val|0.#|%|s)} More Skill <color=#797ea0>Level-Up</color> Offers
+msnew%,{0:stat(val|0.#|%|s)} More <color=#797ea0>New Skills</color> Offers
+msrarm,Skill Rarity Upgrade can upgrade up to <color=#c00049>Master</color>
+mic%,{0:stat(val|0.#|%|s)} More <color=#c0c0c0>Common</color> Items
+mir%,{0:stat(val|0.#|%|s)} More <color=#506bd3>Rare</color> Items
+mie%,{0:stat(val|0.#|%|s)} More <color=#a71edf>Epic</color> Items
+mim%,{0:stat(val|0.#|%|s)} More <color=#c00049>Mythic</color> Items
+mii%,{0:stat(val|0.#|%|s)} More <color=#ff4f4f>Immortal</color> Items
+vs,{0:stat(per|0.#|%|s)} Vision
+drb,{0:stat(per|0.#|%|s)} Durability
+g%,{0:stat(val|0.#|%|s)} Gold Gain
+pdr%,{0:stat(val|0.#|%|s)} Pick Up Drops
+gp%,{0:stat(per|0.#|%|s)} Gold Prices
+glod,{0:stat(per|0.#|%|s)} Gold Lost on Death
+sp1,Chance to Heal on Kill
+sp2,Empty
+sp3,Whenever you attack an enemy refresh its statuses
+sp4,Empty
+sp5,Empty
+sp6,Enemies lose life per second
+sp7,Enemies deal less damage
+sp8,Enemies attack and cast slower
+sp9,Enemy projectiles are slower
+sp10,Enemies are slower
+sp11,Crescent Blades damage enemies around you
+auoh1,Your attacks have a chance to apply <color=#ca6eb9>Weakened</color>
+auoh2,Your attacks have a chance to apply <color=#49d366>Marked</color>
+auoh3,Your attacks have a chance to apply <color=#f06815>Burning</color>
+auoh4,Your attacks have a chance to apply <color=#e9402f>Ruptured</color>
+auoh5,Your attacks have a chance to apply <color=#a4d1ff>Chilled</color>
+auoh6,Your attacks have a chance to apply <color=#31b2f9>Frozen</color>
+auoh7,Your attacks have a chance to apply <color=#8130af>Feared</color>
+auoh8,Your attacks have a chance to apply <color=#56d98a>Cursed</color>
+auoh9,Your attacks have a chance to apply <color=#949494>Stunned</color>
+soh1,Enemies you hit shoot out Firebolts
+soh2,Empty
+soh3,Your attacks have a chance to trigger an additional attack
+soh4,Your attack hits have a chance to proc a Black Lightning
+soh6,Your attack hits have a chance to proc a Firestorm
+soh7,Your attacks have a chance to breathe frost that <color=#a4d1ff>chills</color> and damages enemies in front of you
+sothr1,Empty
+sogh1,Empty
+sogh2,Empty
+sosh1,"Whenever you level up, all hell breaks loose"
+sod1,Your dashes have a chance to proc a Frost Nova
+sod2,Your dashes have a chance to proc a Poison Nova
+sod3,Your dashes have a chance to throw out Sickles
+sod4,Your dashes have a chance to recharge a Dash charge.
+ssum1,The Book Warrior fights alongside you.
+ssum2,The Onyx Dragon fights alongside you
+ssum3,The Green Parrot fights alongside you
+ssum4,A Skeletal Army fights alongside you
+unstr,{0:stat(per|0.####|*100|s)} Strength
+unstam,{0:stat(val|0.####|s)} Stamina
+unwinter,<color=#31b2f9>Frozen</color> statuses you apply last longer
+unequil,"Whenever you get hit, gain increased heals for a limited duration"
+unsheph,"Whenever you gain a level, gain increased attack and movement speed for a limited duration"
+unspirkni,Strikes thrice
+unjackrab,"Whenever you dash, there is a chance you gain increased movement speed for a limited duration"
+ungodrage,Your attack hits have a chance to call down Meteors
+undiabol,Your attacks apply <color=#f06815>Burning</color>. <color=#f06815>Burning</color> deals more damage
+eoline133,eoline
+eoline134,eoline
+eoline135,eoline
+eoline136,eoline
+eoline137,eoline
+eoline138,eoline
+eoline139,eoline
+eoline140,eoline
+eoline141,eoline
+eoline142,eoline
+eoline143,eoline
+eoline144,eoline
+eoline145,eoline
+eoline146,eoline
+eoline147,eoline
+eoline148,eoline
+eoline149,eoline
+eoline150,eoline
+eoline151,eoline
+eoline152,eoline
+eoline153,eoline
+eoline154,eoline
+eoline155,eoline
+eoline156,eoline
+eoline157,eoline
+eoline158,eoline
+eoline159,eoline
+eoline160,eoline
+eoline161,eoline
+eoline162,eoline
+eoline163,eoline
+eoline164,eoline
+eoline165,eoline
+eoline166,eoline
+eoline167,eoline
+eoline168,eoline
+eoline169,eoline
+eoline170,eoline
+eoline171,eoline
+eoline172,eoline
+eoline173,eoline
+eoline174,eoline
+eoline175,eoline
+eoline176,eoline
+eoline177,eoline
+eoline178,eoline
+eoline179,eoline
+eoline180,eoline
+eoline181,eoline
+eoline182,eoline
+eoline183,eoline
+eoline184,eoline
+eoline185,eoline
+eoline186,eoline
+eoline187,eoline
+eoline188,eoline
+eoline189,eoline
+eoline190,eoline
+eoline191,eoline
+eoline192,eoline
+eoline193,eoline
+eoline194,eoline
+eoline195,eoline
+eoline196,eoline
+eoline197,eoline
+eoline198,eoline
+eoline199,eoline
+eoline200,eoline
+eoline201,eoline
+eoline202,eoline
+eoline203,eoline
+eoline204,eoline
+eoline205,eoline
+eoline206,eoline
+eoline207,eoline
+eoline208,eoline
+eoline209,eoline
+eoline210,eoline
+eoline211,eoline
+eoline212,eoline
+eoline213,eoline
+eoline214,eoline
+eoline215,eoline
+eoline216,eoline
+eoline217,eoline
+eoline218,eoline
+eoline219,eoline
+eoline220,eoline
+eoline221,eoline
+eoline222,eoline
+eoline223,eoline
+eoline224,eoline
+eoline225,eoline
+eoline226,eoline
+eoline227,eoline
+eoline228,eoline
+eoline229,eoline
+eoline230,eoline
+eoline231,eoline
+eoline232,eoline
+eoline233,eoline
+eoline234,eoline
+eoline235,eoline
+eoline236,eoline
+eoline237,eoline
+eoline238,eoline
+eoline239,eoline
+eoline240,eoline
+eoline241,eoline
+eoline242,eoline
+eoline243,eoline
+eoline244,eoline
+eoline245,eoline
+eoline246,eoline
+eoline247,eoline
+eoline248,eoline
+eoline249,eoline
+eoline250,eoline
+eoline251,eoline
+eoline252,eoline
+eoline253,eoline
+eoline254,eoline
+eoline255,eoline
+eoline256,eoline
+eoline257,eoline
+eoline258,eoline
+eoline259,eoline
+eoline260,eoline
+eoline261,eoline
+eoline262,eoline
+eoline263,eoline
+eoline264,eoline
+eoline265,eoline
+eoline266,eoline
+eoline267,eoline
+eoline268,eoline
+eoline269,eoline
+eoline270,eoline
+eoline271,eoline
+eoline272,eoline
+eoline273,eoline
+eoline274,eoline
+eoline275,eoline
+eoline276,eoline
+eoline277,eoline
+eoline278,eoline
+eoline279,eoline
+eoline280,eoline
+eoline281,eoline
+eoline282,eoline
+eoline283,eoline
+eoline284,eoline
+eoline285,eoline
+eoline286,eoline
+eoline287,eoline
+eoline288,eoline
+eoline289,eoline
+eoline290,eoline
+eoline291,eoline
+eoline292,eoline
+eoline293,eoline
+eoline294,eoline
+eoline295,eoline
+eoline296,eoline
+eoline297,eoline
+eoline298,eoline
+eoline299,eoline
+eoline300,eoline
+eoline301,eoline
+eoline302,eoline
+eoline303,eoline
+eoline304,eoline
+eoline305,eoline
+eoline306,eoline
+eoline307,eoline
+eoline308,eoline
+eoline309,eoline
+eoline310,eoline
+eoline311,eoline
+eoline312,eoline
+eoline313,eoline
+eoline314,eoline
+eoline315,eoline
+eoline316,eoline
+eoline317,eoline
+eoline318,eoline
+eoline319,eoline
+eoline320,eoline
+eoline321,eoline
+eoline322,eoline
+eoline323,eoline
+eoline324,eoline
+eoline325,eoline
+eoline326,eoline
+eoline327,eoline
+eoline328,eoline
+eoline329,eoline
+eoline330,eoline
+eoline331,eoline
+eoline332,eoline
+eoline333,eoline
+eoline334,eoline
+eoline335,eoline
+eoline336,eoline
+eoline337,eoline
+eoline338,eoline
+eoline339,eoline
+eoline340,eoline
+eoline341,eoline
+eoline342,eoline
+eoline343,eoline
+eoline344,eoline
+eoline345,eoline
+eoline346,eoline
+eoline347,eoline
+eoline348,eoline
+eoline349,eoline
+eoline350,eoline
+eoline351,eoline
+eoline352,eoline
+eoline353,eoline
+eoline354,eoline
+eoline355,eoline
+eoline356,eoline
+eoline357,eoline
+eoline358,eoline
+eoline359,eoline
+eoline360,eoline
+eoline361,eoline
+eoline362,eoline
+eoline363,eoline
+eoline364,eoline
+eoline365,eoline
+eoline366,eoline
+eoline367,eoline
+eoline368,eoline
+eoline369,eoline
+eoline370,eoline
+eoline371,eoline
+eoline372,eoline
+eoline373,eoline
+eoline374,eoline
+eoline375,eoline
+eoline376,eoline
+eoline377,eoline
+eoline378,eoline
+eoline379,eoline
+eoline380,eoline
+eoline381,eoline
+eoline382,eoline
+eoline383,eoline
+eoline384,eoline
+eoline385,eoline
+eoline386,eoline
+eoline387,eoline
+eoline388,eoline
+eoline389,eoline
+eoline390,eoline
+eoline391,eoline
+eoline392,eoline
+eoline393,eoline
+eoline394,eoline
+eoline395,eoline
+eoline396,eoline
+eoline397,eoline
+eoline398,eoline
+eoline399,eoline
+eoline400,eoline
+eoline401,eoline
