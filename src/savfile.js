@@ -20,10 +20,10 @@ const request = async function () {
 	});
 	return {
 		fileHandle,
-		async read(){
+		async read() {
 			return JSON.parse(new TextDecoder().decode(pako.inflateRaw(await (await fileHandle.getFile()).arrayBuffer())));
 		},
-		async write(json){
+		async write(json) {
 			const data = pako.deflateRaw(new TextEncoder().encode(JSON.stringify(json)));
 			const writable = await fileHandle.createWritable();
 			await writable.write(data);

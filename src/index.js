@@ -52,7 +52,7 @@ upbtn.addEventListener("click", function () {
 	uicd();
 });
 
-formatbtn.addEventListener("click", function(){
+formatbtn.addEventListener("click", function () {
 	interactor.ctx = JSON.parse(editfield.value);
 	uicd();
 });

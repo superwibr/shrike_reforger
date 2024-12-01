@@ -8,7 +8,7 @@ const dict = {
 		["drng", "Flying", "dash range"],
 	],
 	party: [
-		
+
 	]
 }
 

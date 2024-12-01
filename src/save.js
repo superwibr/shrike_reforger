@@ -1,6 +1,3 @@
-import { request } from "./savfile.js";
-import dict from "./dict.js";
-
 const isJsonString = str => {
 	try { JSON.parse(str) } catch (e) { return false };
 	return true;
